@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practice_006/core/app/timer_app.dart';
+import 'package:practice_006/core/app/timer_app.dart'; // <-- ruta correcta
 
-/// The above function initializes and runs a TimerApp in Dart.
 void main() {
   runApp(const TimerApp());
 }

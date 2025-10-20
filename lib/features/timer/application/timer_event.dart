@@ -39,3 +39,7 @@ class TimerPaused extends TimerEvent {
 class TimerReset extends TimerEvent {
   const TimerReset();
 }
+
+class TimerLapPressed extends TimerEvent {
+  const TimerLapPressed();
+}
